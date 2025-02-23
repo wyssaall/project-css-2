@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    overflow-x: hidden;
+}
+header{
+    display: flex;
+    flex-direction: row;
+     gap: 20px;
+     padding: 10px;
+     width: 100%;
+     align-items: center;
+     justify-content: space-between;
+
+    
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+}
+.logo{
+    width: 150px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.navigation .logo img{
+    width: 100px;
+
+
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+nav a{
+    color: rgb(95, 95, 95);
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: 600;
+
+}
+nav img{
+    width: 10px;
+}
+header .btns{
+    display: flex;
+    flex-direction: row;
+   gap: 30px;
+padding-right: 20px;
+}
+.btns .log{
+background-color: transparent;
+border: none;
+text-transform: capitalize;
+font-size: 15px;
+cursor: pointer;
+
+}
+.btns .reg{
+    width: 100px;
+    height: 45px;
+    border-radius: 20px;
+    border: 1px solid rgb(94, 94, 94);
+    background-color: transparent;
+    text-transform: capitalize;
+    font-size: 15px;
+    cursor: pointer;
+}
+/*HOME section*/
+
+.home{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height:75vh;
+    margin: 0 auto;
+    align-items: center;
+}
+.left-home{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+     justify-content: space-between;
+}
+.text{
+    width: 78%;
+    font-family: "Epilogue", serif;
+}
+.text h1{
+    font-size: 70px;
+}
+.text p{
+    font-size: 20px;
+    color: rgb(138, 137, 137);
+}
+.left-home .clients{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.left-home .clients img{
+    width: 65px;
+    height:25px;
+}
+
+
+
+.right-home{
+    width: 50%;
+    height: 100%;
+}
+.right-home img{
+width: 350px;
+}
